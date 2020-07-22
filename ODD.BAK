@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int n;
+printf("enter the no.");
+sacnf("%d",&n);
+if(n%2==0)
+printf("no.is even%d",n);
+else
+printf("no.is odd%d",n);
+getch ();
+}

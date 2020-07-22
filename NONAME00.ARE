@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+float main r,A;
+clrscr ();
+printf("enter the value of r");
+scanf("%f",&r);
+A=3.14*r*r;
+printf("%f",A);
+getch();
+return 0;
+}
